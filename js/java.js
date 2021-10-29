@@ -1,3 +1,3 @@
-$(document).scroll(function(){
-    console.log($(document).scrollTop());
-})
+// $(document).scroll(function(){
+//     console.log($(document).scrollTop());
+// })
