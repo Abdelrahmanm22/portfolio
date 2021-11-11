@@ -492,7 +492,7 @@ hr{
     line-height: 0em;
     text-transform: uppercase;
 }
-@media(max-width:400px){
+@media (min-width:320px) and (max-width:480px){
     .reco{
         width: 149%;
         overflow: hidden;
