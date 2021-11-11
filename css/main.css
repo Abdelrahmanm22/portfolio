@@ -27,6 +27,9 @@ hr{
     box-shadow: 3px 3px tomato;
 }
 .navLogo{
+    width: 141px;
+    height: 34px;
+    cursor: auto;
     position: relative;
 }
 .navLogo::before{
@@ -73,7 +76,7 @@ hr{
     outline:0;
     box-shadow: none;
 }
-@media(max-width:400px){
+@media (min-width:320px) and (max-width:480px){
     .navv{
         width: 149%;
     }
@@ -187,7 +190,7 @@ hr{
     left: -20px;
     z-index: -1;
 }
-@media(max-width:400px){
+@media (min-width:320px) and (max-width:480px){
     
     .profile{
         width: 149%;
@@ -195,6 +198,9 @@ hr{
     }
     .mt-5{
         margin-top: 100px !important;
+    }
+    .profile-text p{
+        width: 600px;
     }
     .profile-text .btn{
         width: 90%;
@@ -276,7 +282,7 @@ hr{
 .skillsItem p:last-child:hover{
     color: #f50d32;
 }
-@media(max-width:400px){
+@media (min-width:320px) and (max-width:480px){
     .skills{
         width: 149%;
         position: relative;
@@ -395,7 +401,7 @@ hr{
     background-color: #2f2f2f;
     z-index: -1;
 }
-@media(max-width:400px){
+@media (min-width:320px) and (max-width:480px){
     .works{
         width: 149%;
         overflow: hidden;
@@ -585,7 +591,7 @@ Contact---------------------- */
 .contactIcons i:hover{
     border: 1px solid white;
 }
-@media(max-width:400px){
+@media (min-width:320px) and (max-width:480px){
     .contact{
         width: 149%;
     }
