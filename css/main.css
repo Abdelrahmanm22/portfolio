@@ -29,10 +29,10 @@ hr{
 .navLogo{
     width: 141px;
     height: 34px;
-    cursor: auto;
+    cursor: pointer;
     position: relative;
 }
-.navLogo::before{
+/* .navLogo::before{
     content: "";
     position: absolute;
     right: 1px;
@@ -40,7 +40,7 @@ hr{
     width: 5px;
     height: 5px;
     background-color: white;
-}
+} */
 .navbar-nav .nav-item{
     margin-left: 45px;
     
